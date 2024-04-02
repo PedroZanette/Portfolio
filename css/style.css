@@ -48,17 +48,6 @@ body{
     left: 40%;
   }
   
-.Btn svg path {
-  transition: 400ms;
-}
-
-.Btn:hover {
-  background-color: transparent;
-}
-
-.Btn:hover svg path {
-  fill: #181717;
-}
   .svgContainer {
     width: 10rem;
     height: 10rem;

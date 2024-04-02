@@ -22,10 +22,11 @@
     top: 20%;
     left: 33%;
 }
-body{
+.body-index{
     background-image: url();
     background-position: bottom;
     background-size: 100vw 100vh;
+    align-items: center;
 }
 
   /* 
@@ -42,10 +43,9 @@ body{
     background-color: transparent;
     position: relative;
     cursor: pointer;
-    transition: all .3s;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 45%;
   }
   
   .svgContainer {
@@ -57,7 +57,7 @@ body{
     background-color: transparent;
     backdrop-filter: blur(0px);
     letter-spacing: 0.8px;
-    border-radius: 15%;
+    border-radius: 10px;
     border: 120% solid rgba(253, 253, 253, 0.466);
   }
   
@@ -68,7 +68,7 @@ body{
     height: 100%;
     background: #181818;
     z-index: -1;
-    border-radius: 10%;
+    border-radius: 10px;
     pointer-events: none;
     transition: all .3s;
   }
@@ -86,11 +86,10 @@ body{
     border: none;
     background-color: transparent;
     position: relative;
-  
     cursor: pointer;
     position: absolute;
-    top: 80%;
-    left: 40%;
+    top: 50%;
+    left: 25%;
   }
   
   .svgContainer-2 {
@@ -133,8 +132,8 @@ body{
     position: relative;
     cursor: pointer;
     position: absolute;
-    top: 20%;
-    left: 40%;
+    top: 50%;
+    left: 65%;
   
   }
   
@@ -165,5 +164,9 @@ body{
     pointer-events: none;
     transition: all .3s;
   }
-  
+  button:hover{
+    background-color: rgb(62, 62, 62);
+    border: none;
+    border-radius: 9px;
+  }
   

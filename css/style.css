@@ -41,8 +41,6 @@ body{
     border: none;
     background-color: transparent;
     position: relative;
-    /* overflow: hidden; */
-    
     cursor: pointer;
     transition: all .3s;
     position: absolute;
@@ -50,6 +48,17 @@ body{
     left: 40%;
   }
   
+.Btn svg path {
+  transition: 400ms;
+}
+
+.Btn:hover {
+  background-color: transparent;
+}
+
+.Btn:hover svg path {
+  fill: #181717;
+}
   .svgContainer {
     width: 10rem;
     height: 10rem;
@@ -88,7 +97,7 @@ body{
     border: none;
     background-color: transparent;
     position: relative;
-    /* overflow: hidden; */
+  
     cursor: pointer;
     position: absolute;
     top: 80%;
@@ -105,7 +114,7 @@ body{
     backdrop-filter: blur(0px);
     letter-spacing: 0.8px;
     border-radius: 10px;
-    transition: all 0.3s;
+
 
   }
   
@@ -133,10 +142,9 @@ body{
     border: none;
     background-color: transparent;
     position: relative;
-    /* overflow: hidden; */
     cursor: pointer;
     position: absolute;
-    top: 80%;
+    top: 20%;
     left: 40%;
   
   }
@@ -151,8 +159,6 @@ body{
     backdrop-filter: blur(4px);
     letter-spacing: 0.8px;
     border-radius: 10px;
-    transition: all .3s;
-    border: 1px solid rgba(156, 156, 156, 0.466);
   }
   
   .BG-3 {

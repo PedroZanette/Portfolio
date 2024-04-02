@@ -14,8 +14,8 @@
         top: 40%;
 }
 body{
-  background: rgb(72, 72, 72)37;
-  background: linear-gradient(90deg, rgb(72, 72, 72) 0%, rgb(72, 72, 72) 35%, rgb(72, 72, 72) 100%);
+  /* background: rgb(72, 72, 72)37;
+  background: linear-gradient(90deg, rgb(72, 72, 72) 0%, rgb(72, 72, 72) 35%, rgb(72, 72, 72) 100%); */
 }
 .buton-ini:active {
         transform: translateY(5px);
@@ -186,3 +186,61 @@ body{
     width: 100%;
     box-sizing: border-box;
   }
+
+  .buton-port2,.buton-port1 {
+    width: 10%;
+    height: 10rem;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .buton-port2:hover,.buton-port1:hover{
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+  }
+  .voltar-ao-topo {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+.voltar-ao-topo:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text{
+  width: 100%;
+  height: 47vw;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+  color: white;
+}
+.h2{
+  padding: 2rem 2rem;
+  font-size: 2000px;
+ 
+}
+.text-me{
+  padding: 2rem 2rem;
+  width: 45%;
+  font-size: 1.5rem;
+  background: rgb(223, 225, 235);
+  color: black;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

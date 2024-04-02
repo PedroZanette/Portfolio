@@ -1,8 +1,8 @@
-.navbar navbar-expand-lg navbar-light bg-light{
+.navbarnavbar-expand-lgnavbar-lightbg-light{
     width: 2000rem;
     height: 3rem;
-    background-color: rgb(132, 132, 132);
 }
+
 a{
     /* Alguem ta me vendo? */
     font-size: 120%;

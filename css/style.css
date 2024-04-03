@@ -11,8 +11,8 @@
         transition: all ease 0.1s;
         box-shadow: 0px 5px 0px 0px #2e2e2e;
         position: absolute;
-        left: 6.7em;
-        top: 4em;
+        left: 40%;
+        top: 50%;
 }
 .buton-ini:active {
         transform: translateY(5px);
@@ -24,8 +24,8 @@
       }
 .ini{
     position: absolute;
-    top: 3em;
-    left: 6.99em;
+    top: 30%;
+    left: 37%;
 }
 .body-index{
     background-image: url(../img/fundo.png);
@@ -226,15 +226,20 @@
 /* Quem sou eu? */
 .text-2{
   padding: 3rem;
-  height: 50rem;
+  height: 100vh;
 }
-iframe{
+.iframe-2{
   padding: 2rem;
+  width: 60%; 
+  height: 80% ;
+  position: absolute; 
+  left: 25%;
 }
 /* Botão bonito portfólios passados */
 .text-3{
+  
   position: relative;
-  top: 3rem;
+  top: 2rem;
   left: 12%;
   display: flex; 
   flex-direction: column; 

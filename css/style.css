@@ -181,15 +181,13 @@ body{
   .table{
     background: rgb(72, 72, 72)37;
     background: linear-gradient(90deg, rgb(154, 154, 154) 0%, rgb(154, 154, 154) 35%, rgb(154, 154, 154) 100%);
-    color: white;
-    padding: 3rem 5rem;
+    padding: 3rem 0rem;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 0px;
   }
 
-
-
-
+/* Sobre mim */
 .text{
   width: 100%;
   height: 47vw;
@@ -202,12 +200,13 @@ body{
 }
 .h2{
   padding: 2rem 2rem;
-  font-size: 2000px;
- 
+  
 }
 .text-me{
   padding: 2rem 2rem;
   width: 45%;
+  position: relative;
+  left: 1rem;
   font-size: 1.5rem;
   background: rgb(223, 225, 235);
   color: black;
@@ -226,27 +225,28 @@ iframe{
 /* Botão bonito portfólios passados */
 .text-3{
   position: relative;
-  top: 2rem;
+  top: 3rem;
+  left: 12%;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
   margin-top: 50px;
-  width: 100%;
+  width: 80%;
   height: 100%;
   background: white;
   border-radius: 10px;
   transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: inset 0 -0.6em 2em rgba(37, 37, 37, 0.2),
+    0 0  0 0.04em rgb(220, 220, 220),
+    0.3em 0.3em 0.3em rgba(52, 52, 52, 0.3);
 }
-.text-3:hover {
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 2px rgb(190, 190, 190),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
-   }
+
 .h1-p{
   padding: 2.5rem;
+  font-size: 4rem;
 }
   .buton-port2,.buton-port1 {
-    width: 10%;
+    width: 20%;
     height: 10rem;
     border: 3px solid #315cfd;
     border-radius: 45px;
@@ -256,6 +256,7 @@ iframe{
     font-size: 1.2em;
     font-weight: 550;
     font-family: 'Montserrat', sans-serif;
+  
   }
 
   .buton-port2:hover,.buton-port1:hover{

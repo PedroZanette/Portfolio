@@ -16,3 +16,13 @@ p{
     width: 90%;
     padding: 1em;
 }
+
+.capaHumanas{
+    background-image: url(/img/Humanas\ 3ano.png);
+    background-size: cover;
+    background-size: 100vw 100vh;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}

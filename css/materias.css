@@ -26,3 +26,9 @@ p{
     justify-content: center;
     
 }
+
+.p-humanas{
+    padding: 2em ;
+    padding-bottom: 0px; 
+    font-size: 1.6em;
+}

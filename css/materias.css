@@ -17,7 +17,7 @@ p{
     padding: 1em;
 }
 
-.fundoHumanas{
+/* .fundoHumanas{
     background-image: url(/img/Humanas\ 3ano.png);
     background-size: cover;
     background-size: 100%;
@@ -25,7 +25,7 @@ p{
     align-items: center;
     justify-content: center;
     
-}
+} */
 
 .p-humanas{
     padding: 2em ;
@@ -119,3 +119,4 @@ p{
     -ms-transform: rotatey(-80deg);
     transform: rotatey(-80deg);
   }
+

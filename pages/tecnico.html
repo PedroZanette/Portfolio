@@ -1,103 +1,274 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="/img/ZanetteLogo.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" >
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
-    <link rel="stylesheet" href="../css/materias.css">
-    <link rel="stylesheet" href="../css/nav.css">
-    <title>Técnico</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/img/ZanetteLogo.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/materias.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <title>Técnico</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html">
-            <img src="../img/ZanetteLogo.png" width="40" height="40" class="d-inline-block align-top" alt="" > 
-            Ínicio
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/ZanetteLogo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+      Ínicio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tecnico.html">Técnico</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Áreas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="matematica.html">Matemática</a>
+            <a class="dropdown-item" href="humanas.html">Humanas</a>
+            <a class="dropdown-item" href="linguagens.html">Linguagens</a>
+            <a class="dropdown-item" href="natureza.html">Natureza</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="ppe.html">PPE</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            INFO
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./info/info.html">Informações</a>
+            <a class="dropdown-item" href="./info/contatct.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="tecnico">
+    <div style="width: 98.6vw; background-color: black; color: white;">
+      <h1 style=" position: relative; left: 43%; font-size: 3em;width: fit-content;">1° Trimestre</h1>
+    </div><br><br>
+    <div style="width: 98.6vw; background-color: black; color: white;text-align: center;">
+      <h1 style=" position: relative; left: 36%; font-size: 3em;width: fit-content;">Desenvolvimento de Sistemas</h1>
+    </div>
+    <div class="atividade-h">
+      <P>
+        <a style="text-decoration: none;"
+          href="https://classroom.google.com/c/NjI4MjE3OTgxMDE1/m/NjU1NDU3MTgxNzQx/details">
+          Calculadora de Horas em react
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tecnico.html">Técnico</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Áreas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="matematica.html">Matemática</a>
-                <a class="dropdown-item" href="humanas.html">Humanas</a>
-                <a class="dropdown-item" href="linguagens.html">Linguagens</a>
-                <a class="dropdown-item" href="natureza.html">Natureza</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="ppe.html">PPE</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                INFO
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./info/info.html">Informações</a>
-                <a class="dropdown-item" href="./info/contatct.html">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="tecnico">
-        <div class="atividade-h" >
-          <P >
-            <a style="text-decoration: none;"
-            href="https://classroom.google.com/c/NjI4MjE3OTgxMDE1/m/NjU1NDU3MTgxNzQx/details">
-            Calculadora de Horas em react
-            </a>
-         </P>
-        <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
           padding-bottom: 0; margin-top: 0em; overflow: hidden;
           border-radius: 8px; will-change: transform;">
-          <iframe loading="lazy" style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
           src="../img/calculadora.png" allowfullscreen="allowfullscreen" allow="fullscreen">
-          </iframe>
-        </div>
+        </iframe>
+      </div>
       <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
         Competências e habilidades: Desconhecido
       </p>
       <p style="padding: 2em; font-size: 1.4em;">
-       Nessa atividade fizemos uma calculadora de horas em React, foi legal pois era uma assunto que eu ainda tinha dúvida e nessa aula foi a introdução dele, nessa atividade gostei de montar do meu jeito então ficou legal além de ela funcionar.
+        Nessa atividade fizemos uma calculadora de horas em React, foi legal pois era uma assunto que eu ainda tinha
+        dúvida e nessa aula foi a introdução dele, nessa atividade gostei de montar do meu jeito então ficou legal além
+        de ela funcionar.
       </p>
     </div>
-    <div class="atividade-h" >
-      <P >
-        
+    <div class="atividade-h">
+      <P>
         API - CEP
-        
-     </P>
-    <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
       padding-bottom: 0; margin-top: 0em; overflow: hidden;
       border-radius: 8px; will-change: transform;">
-      <iframe loading="lazy" style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
-      src="../img/postman.png" allowfullscreen="allowfullscreen" allow="fullscreen">
-      </iframe>
-    </div>
-  <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
-    Competências e habilidades: Desconhecido
-  </p>
-  <p style="padding: 2em; font-size: 1.4em;">
-   A atividade foi aprender a usar a API para buscar o CEP, foi bem bacana pois era algo simples e facíl de se usar, aprender sobre API foi legal e consegui absorver bastante coisa da aula que teve, no caso da imagem nós tivemos que depois de usada a API, buscamos no Postman que com o link da API quais as informações existiam.
-  </p>
-</div>
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+          src="../img/postman.png" allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
       </div>
+      <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
+        Competências e habilidades: Desconhecido
+      </p>
+      <p style="padding: 2em; font-size: 1.4em;">
+        A atividade foi aprender a usar a API para buscar o CEP, foi bem bacana pois era algo simples e facíl de se
+        usar, aprender sobre API foi legal e consegui absorver bastante coisa da aula que teve, no caso da imagem nós
+        tivemos que depois de usada a API, buscamos no Postman que com o link da API quais as informações existiam.
+      </p>
+    </div>
+    <div class="atividade-h">
+      <P>
+        <a style="text-decoration: none;"
+          href="https://www.canva.com/design/DAF95gz0wTw/QyoMSMFtZCC0hW_7BN8rNQ/view?utm_content=DAF95gz0wTw&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+          Trabalho API
+        </a>
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+          padding-bottom: 0; margin-top: 0em; overflow: hidden;
+          border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+          src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF95gz0wTw&#x2F;G_1-aQAzdzLn4NqJohVuPQ&#x2F;view?embed" 
+          allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+      </div>
+      <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
+       Habilidades: H3, H4, H5, H6, H9 E H10
+      </p>
+      <p style="padding: 2em; font-size: 1.4em;">
+        Objetivos: Realizar a montagem de grupos, realizar uma pesquisa sobre os seguintes conceitos:
+        Tipos de API(Restful, SOAP, GraphQL, etc); 
+        Ferramentas (Postman, Swagger); 
+        Verbos HTTP (Post, Put, Get, Delete, etc); 
+        Formato de dados (json e xml); 
+        Diferenças de http e https. 
+        <br>
+        Gosto de apresentações e essa não foi diferente, curti fazer ela pois tive que aprender e fixar bem os conceitos de API
+        e depois dessa atividade posso diver que aprendi o que é uma API.
+      </p>
+    </div><br><br>
+    <div style="width: 98.6vw; background-color: black; color: white;text-align: center;">
+      <h1 style=" position: relative; left: 36%; font-size: 3em;width: fit-content;">Desenvolvimento de Sistemas</h1>
+    </div>
+    <div class="atividade-h">
+      <P>
+        <a style="text-decoration: none;"
+          href="https://docs.google.com/document/d/1lBdz4DDRAu6q3LVFnu3Hb1BiU3Wx51dkE5PlHmjDc1o/edit?usp=sharing">
+          Cenário 1/Atividade 1 - Método de Implantação -- Implantação de um Sistema Para Gerenciamento de Conteúdo - CMS -
+        </a>
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+          padding-bottom: 0; margin-top: 0em; overflow: hidden;
+          border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+          src="https://docs.google.com/document/d/1_vrQZkhbZH49Kt7Kdx1CClMY9qG7qi_JLxnMNww3lWg/pub?embedded=true" 
+          allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+      </div>
+      <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
+       Habilidades:
+      </p>
+      <p style="padding: 2em; font-size: 1.4em;">
+        Objetivos: Analisar as informações técnicas do sistema para a empresa Veículos Brasil 
+        e propor uma instalação, justificando se será on-premise ou em Cloud.
+        <br>
+        Achei legal a ideia mas muito complicado para um ínicio mas em resumo foi legal esse cenário apresentado,
+        e aprender sobre instalação de sistemas foi muito bacana.
+      </p>
+    </div>
+    <div style="width: 98.6vw; background-color: black; color: white;">
+      <h1 style=" position: relative; left: 43%; font-size: 3em;width: fit-content;">2° Trimestre</h1>
+    </div><br><br>
+    <div style="width: 98.6vw; background-color: black; color: white;text-align: center;">
+      <h1 style=" position: relative; left: 36%; font-size: 3em;width: fit-content;">Modelagem de Sistemas</h1>
+    </div>
+    <div class="atividade-h">
+      <P>
+        <a style="text-decoration: none;"
+          href="https://docs.google.com/spreadsheets/d/1pN2ldEnHwP-fTeyR9M1V9z5tyjMpS1YPQyft4lG1ZAs/edit?usp=sharing">
+          S.A - Regra de Negócio 12/03
+        </a>
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+    padding-bottom: 0; margin-top: 0em; overflow: hidden;
+    border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+          src="https://docs.google.com/spreadsheets/d/1pN2ldEnHwP-fTeyR9M1V9z5tyjMpS1YPQyft4lG1ZAs/pubhtml?widget=true&amp;headers=false"
+          allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+      </div>
+      <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
+        Habilidade: H2, H3, H4 e H8.
+      </p>
+      <p style="padding: 2em; font-size: 1.4em;">
+        Objetivos: Baseando-se no  brainstorm  construído em uma das aulas, desenvolvemos as regras de negócio da nossa solução.
+        <br>
+        Opnião : Eu e meu time gostamos bastante de montar as regras de negócio pois são úteis para o desenvolvimento da S.A, 
+        e nos ajudou em pensar nas melhorias futuras e em como montar de maneira eficiente nossa ideia.
+      </p>
+    </div>
+    <div class="atividade-h">
+      <P>
+        <a style="text-decoration: none;"
+          href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/m/Njk3ODAzNjE5MTUw/details">
+          2
+        </a>
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+    padding-bottom: 0; margin-top: 0em; overflow: hidden;
+    border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+          src="../img/Redações enviadas.pdf"
+          allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+      </div>
+      <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
+        Competência: C1- Utilizar a leitura como fonte de informação e como meio de acesso ao mundo do trabalho e dos estudos avançados. 
+        <br>
+        Habilidade: H3.
+      </p>
+      <p style="padding: 2em; font-size: 1.4em;">
+        Objetivos: Fazer uma Redação modelo ENEM.
+        <br>
+        Assunto: Valorização dos profissionais da educação básica pública e seu impacto na qualidade do
+        ensino
+        <br>
+        Opnião : Não sou muito chegado à redação, mas gostei da nota e ainda tenho dúvida sobre a correção da competência 5, 
+        pois me deram apenas 80 pontos. Se não fosse por isso, eu teria tido uma nota bem melhor.
+      </p>
+    </div>
+    <div class="atividade-h">
+      <P>
+        <a style="text-decoration: none;"
+          href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/m/Njk3ODAzNjE5MTUw/details">
+          3
+        </a>
+      </P>
+      <div style="position: relative; width: 100%; height: 30em; padding-top: 0em;
+    padding-bottom: 0; margin-top: 0em; overflow: hidden;
+    border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy"
+          style="position: absolute; width: 70%; height: 100%; top: 0; left: 13em; border: none; padding: 0em;margin: 0;"
+          src="../img/Redações enviadas.pdf"
+          allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+      </div>
+      <p style="padding: 2em ;padding-bottom: 0px; font-size: 2em;">
+        Competência: C1- Utilizar a leitura como fonte de informação e como meio de acesso ao mundo do trabalho e dos estudos avançados. 
+        <br>
+        Habilidade: H3.
+      </p>
+      <p style="padding: 2em; font-size: 1.4em;">
+        Objetivos: Fazer uma Redação modelo ENEM.
+        <br>
+        Assunto: Valorização dos profissionais da educação básica pública e seu impacto na qualidade do
+        ensino
+        <br>
+        Opnião : Não sou muito chegado à redação, mas gostei da nota e ainda tenho dúvida sobre a correção da competência 5, 
+        pois me deram apenas 80 pontos. Se não fosse por isso, eu teria tido uma nota bem melhor.
+      </p>
+    </div>
+  </div>
 </body>
+
 </html>
